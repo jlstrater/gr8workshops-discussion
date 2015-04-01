@@ -70,13 +70,15 @@ html(class="no-js", ng-app="main")
             h2 Goals of this session
             ul
                 li Evaluate current teaching models
-                li Raise questions about how programming is taught and the phrase "skills shortage"
+                li Raise questions about how programming is taught and the phrase "skills shortage"<sup>1</sup>
                 li Discuss the role of diversity in the community and in education
-                li Provide guidance and solutions
+                li Navigate solutions
+            <img src="./assets/img/slide-images/roadmap.jpg"/>
 
         section
             h2 Backgrounds
             p How did you first learn to program?
+            p <img src="./assets/img/slide-images/student.jpg"/>
             ul
                 li.fragment Traditional University (major in Computer Science, IT, or related)
                 li.fragment Other University major and on-the-job training
@@ -85,11 +87,75 @@ html(class="no-js", ng-app="main")
                 li.fragment Code School/Bootcamp
 
         section
-            p When did you first learn Groovy?
+            p <img src="./assets/img/slide-images/groovy-logo.png"/>
+            p How did you first learn Groovy?
             ul
                 li.fragment University
                 li.fragment On the job
+                li.fragment Books, blog posts, other media
                 li.fragment Workshop, conference, or other training
+
+        section
+            section
+                h2 The problems
+                ul
+                 li "Skills shortage"
+                 li Lack of Diversity
+
+            section
+                h2 "Skills Shortage" Solutions
+                ul
+                    li Traditional
+                    ul
+                        li Immigration
+                        li Outsourcing
+                    li.fragment Proposed
+                    ul.fragment
+                        li Employer paid skills training
+                        li Hire new grads and offer training
+
+            section
+                h3 What is diversity?
+            section
+                h3 Diversity Exercise
+                <img src="./assets/img/slide-images/profile.png"/>
+                p I am _____,______,______,______,_____
+
+            section
+                <img src="./assets/img/slide-images/profile.png"/>
+                ul Traits
+                    li.fragment Physical (tall, short, blond hair, brown eyes)
+                    li.fragment Personality (smart, funny, extroverted, loyal, dedicated)
+                    li.fragment Gender Identity(male, female, bigender, genderqueer, etc)
+                    li.fragment Race, ethnicity, heritage, country
+                    li.fragment Profession
+                    li.fragment Education
+                    li.fragment Socioeconomic status/background
+
+            section
+                 blockquote The importance of diversity in the workplace and education is about embracing the value that comes from our individual differences and perspectives
+
+            section
+                h2 Tackling Diversity in Education
+                ul
+                    li Don't just make it pink!
+                    li Consider scholarships
+                    li Consider childcare for parents
+                    li Avoid using gendered pronouns and adjectives
+                    li Be cautious of diversity in images in marketing
+
+        section
+            h2 What can we do?
+            <img src="./assets/img/slide-images/community.jpg"/>
+
+        section
+            h2 Potential Students
+            <img src="./assets/img/slide-images/students.jpg"  style="height="30%"; width="30%";"/>
+            ul
+                li University students
+                li Working professionals looking for a career change
+                li Experienced developers looking to learn new skills
+                li Parents, caregivers, etc returning to the workforce after an extended leave
 
         section
             section
@@ -106,11 +172,11 @@ html(class="no-js", ng-app="main")
                                 <img src="./assets/img/slide-images/codeschool.jpg"/>
                         td
                             ul
-                                li Flatiron School
+                                li Flatiron School<sup>4</sup>
                                 ul
                                     li $15000 (~14000 €)
                                     li Language focused
-                                li Recurse Center (formerly Hacker School)
+                                li Recurse Center (formerly Hacker School)<sup>5</sup>
                                 ul
                                     li Free tuition (and housing scholarships)
                                     li Project focused
@@ -121,18 +187,20 @@ html(class="no-js", ng-app="main")
                     li Free or low cost
                     li Examples
                     ul
-                        li Bridge Foundry(RailsBridge, ClojureBridge)
+                        li Bridge Foundry(RailsBridge, ClojureBridge)<sup>6</sup>
                         li RailsGirls
                         li DjangoGirls
                         li Gr8Workshops
+                <img src="./assets/img/slide-images/teacher-and-student.jpg"/>
             section
                 h2 Online
+                p <img src='./assets/img/slide-images/online-education.png'/>
                 ul.ul-no-style
                     li Types
                     ul
                         li Traditional Universities for Credit
                         li All online Universities
-                        li One-time classes for no credit
+                        li One-time classes for no credit<sup>2,3</sup>
                     li Formats
                     ul
                         li Group lessons
@@ -165,41 +233,29 @@ html(class="no-js", ng-app="main")
                     li Every individual learns differently so multiple options are better and necessary
 
         section
-            section
-                h2 What should we as the Groovy community do?
-            section
-                h2 The problems
-                p "Skills shortage"
-                p Lack of Diversity
-
-            section
-                ul
-                    li Traditional Solutions
-                    ul
-                        li Immigration
-                        li Outsourcing
-                    li.fragment Proposed Solutions
-                    ul.fragment
-                        li Employer paid skills training
-                        li Hire new grads and offer training
-
-            section
-                ul Why should we teach Groovy?
-                    li Recruit new developers to your company
-                    li Networking
-                    li 'Learning By Teaching'
+            h3 Do you think you would have benefited from another format for learning Groovy?
 
         section
-            h2 Potential Students
-            <img src="./assets/img/slide-images/students.jpg"  style="height="30%"; width="30%";"/>
+            h3 Does Groovy have potential as a language for beginners?
+
+        section
+            h3 What content should be included when teaching Groovy?
+            ul.fragment
+                li Syntax
+                li Frameworks
+                li Testing
+                li Specific Plugins
+                li IDEs
+
+        section
+            h3 What teaching styles work best for learning/teaching Groovy?
             ul
-                li University students
-                li Working professionals looking for a career change
-                li Experienced developers looking to learn new skills
-                li Parents, caregivers, etc returning to the workforce after an extended leave
+                li Examples vs projects
+                li Self guided vs group settings
 
         section
-            p Does an alternative model make sense for learning Groovy and related technologies?
+            h3 For experienced teachers, what is your typical audience?
+            h3 Is that what you expect?
 
         section
             section
@@ -231,12 +287,56 @@ html(class="no-js", ng-app="main")
                     ul
                         li Object Oriented Programming (OOP)
                         li Functional programming
-                        li File handling
                         li REST/APIs
                     li Define all jargon and acronyms
                     li Simplify exercises
                     ul
                         li avoid industry specific examples (even math)
+            section
+                h3  <img src="./assets/img/slide-images/setup.png"/> Setting Up a Development Environment
+                ul
+                    li Provide instructions for multiple machine configurations
+                    li Assume students don't know how any programs(IDE's etc) work
+                    li Offer supervised time to assist with setup
+                    li Pick a location for your event with good Wi-Fi
+                    li Bring a backup USB drive with all necessary setup files
+                    li If all else fails, try a web console
+            section
+                h3 Beginner Specific Hurdles
+                <img src="./assets/img/slide-images/beginner.jpg"/>
+                ul
+                    li Learning something new can be intimidating
+                    ul
+                        li Remember a welcoming attitude
+                        li Watch for assumptions and tone of voice
+                    li The more TA(teaching assistant)s the better
+                    ul
+                        li Small student to teacher ratios are important
+                        li Multiple viewpoints
+                        li Different analogies and explanations
+                    li Languages
+                    ul
+                        li Java is practical, but beginners often get frustrated with the syntax
+                        li Groovy is dynamic, flexible, and easier to learn!
+            section
+                h3 Current and Ongoing Challenges
+                ul
+                    li Wait for everyone to catch up or keep moving on?
+                    li Budget enough time for questions and assistance
+                    ul
+                        li One hour sessions aren't enough for true beginners
+                        li Consider a follow-up session if there are still outstanding questions
+                    li Consider offering an intermediate level for repeat students who don't quite have enough experience for the advanced class
+        section
+            h2 References
+            ul
+                li <sup>1</sup><a href="http://www.itworldcanada.com/article/it-hiring-slump-to-bring-about-skills-shortage-survey/88069">http://www.itworldcanada.com/article/it-hiring-slump-to-bring-about-skills-shortage-survey/88069</a>
+                li <sup>2</sup><a href="http://www.newyorker.com/science/maria-konnikova/moocs-failure-solutions">http://www.newyorker.com/science/maria-konnikova/moocs-failure-solutions</a>
+                li <sup>3</sup><a href="http://www.academicpartnerships.com/sites/default/files/MOOCs_Expectations_and_Reality.pdf">http://www.academicpartnerships.com/sites/default/files/MOOCs_Expectations_and_Reality.pdf</a>
+                li <sup>4</sup><a href="http://flatironschool.com/">http://flatironschool.com</a>
+                li <sup>5</sup><a href="http://www.hackerschool.com/faq">http://hackerschool.com/faq</a>
+                li <sup>6</sup><a href="http://www.railsbridge.org/">http://www.railsbridge.org</a>
+
 
     script(src="./assets/js/app.js")
 
