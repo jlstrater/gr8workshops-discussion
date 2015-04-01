@@ -29,12 +29,12 @@ html(class="no-js", ng-app="main")
         section(data-state="github-slide", class="github-section")
           h1 <i class="fa fa-icon fa-github"></i>
           p.
-            These slides are up on GitHub
+            These slides are on GitHub
             <a href="http://jlstrater.github.io/gr8workshops-discussion/" target="_blank">jlstrater.github.io/gr8workshops-discussion</a>
           p.
             <a href="http://jlstrater.github.io/gr8workshops-discussion/?print-pdf#/" target="_blank">Printable PDF</a>
         section
-            h1 <img src="./assets/img/Gr8LadiesLogo.png"/>
+            h1 <img src="./assets/img/Gr8LadiesYourTown.png"/>
             ul
                 li An organization for the support of women in the Gr8 (Groovy, Grails, Gradle, etc) community
                 ul
@@ -45,7 +45,7 @@ html(class="no-js", ng-app="main")
                 li Chapters in Minneapolis, MN and looking to expand
 
         section
-            h2 Gr8Workshops
+            h3 Gr8Workshops
             <img src="./assets/img/slide-images/gr8workshops.jpg" style="height="30%"; width="30%";"/>
             ul
                 li Free or low-cost weekend courses
@@ -70,7 +70,7 @@ html(class="no-js", ng-app="main")
             h2 Goals of this session
             ul
                 li Evaluate current teaching models
-                li Raise questions about how programming is taught and the phrase "skills shortage"<sup>1</sup>
+                li Raise questions about how to solve the "skills shortage"<sup>1</sup>
                 li Discuss the role of diversity in the community and in education
                 li Navigate solutions
             <img src="./assets/img/slide-images/roadmap.jpg"/>
@@ -80,7 +80,7 @@ html(class="no-js", ng-app="main")
             p How did you first learn to program?
             p <img src="./assets/img/slide-images/student.jpg"/>
             ul
-                li.fragment Traditional University (major in Computer Science, IT, or related)
+                li.fragment Traditional University (Computer Science, IT, or related)
                 li.fragment Other University major and on-the-job training
                 li.fragment Two-year technical, vocational, or community college
                 li.fragment Online University
@@ -114,35 +114,36 @@ html(class="no-js", ng-app="main")
                         li Employer paid skills training
                         li Hire new grads and offer training
 
-            section
-                h3 What is diversity?
-            section
-                h3 Diversity Exercise
-                <img src="./assets/img/slide-images/profile.png"/>
-                p I am _____,______,______,______,_____
+        section
+            h3 What is diversity?
+        section
+            h3 Diversity Exercise
+            <img onClick="count=120;clearInterval(timer);var counter=setInterval(timer, 1000);" src="./assets/img/slide-images/profile.png"/>
+            p I am _____,______,______,______,_____
+            p(id="timer")
 
-            section
-                <img src="./assets/img/slide-images/profile.png"/>
-                ul Traits
-                    li.fragment Physical (tall, short, blond hair, brown eyes)
-                    li.fragment Personality (smart, funny, extroverted, loyal, dedicated)
-                    li.fragment Gender Identity(male, female, bigender, genderqueer, etc)
-                    li.fragment Race, ethnicity, heritage, country
-                    li.fragment Profession
-                    li.fragment Education
-                    li.fragment Socioeconomic status/background
+        section
+            <img src="./assets/img/slide-images/profile.png"/>
+            ul Traits
+                li.fragment Physical (tall, short, blond hair, brown eyes)
+                li.fragment Personality (smart, funny, extroverted, loyal, dedicated)
+                li.fragment Gender Identity(male, female, bigender, genderqueer)
+                li.fragment Race, ethnicity, heritage, country
+                li.fragment Profession
+                li.fragment Education
+                li.fragment Socioeconomic status/background
 
-            section
-                 blockquote The importance of diversity in the workplace and education is about embracing the value that comes from our individual differences and perspectives
+        section
+             blockquote The importance of diversity in the workplace and education is about embracing the value that comes from our individual differences and perspectives
 
-            section
-                h2 Tackling Diversity in Education
-                ul
-                    li Don't just make it pink!
-                    li Consider scholarships
-                    li Consider childcare for parents
-                    li Avoid using gendered pronouns and adjectives
-                    li Be cautious of diversity in images in marketing
+        section
+            h2 Tackling Diversity in Education
+            ul
+                li Don't just make it pink!
+                li Consider scholarships
+                li Consider childcare for parents
+                li Avoid using gendered pronouns and adjectives
+                li Be cautious of diversity in images in marketing
 
         section
             h2 What can we do?
@@ -254,8 +255,10 @@ html(class="no-js", ng-app="main")
                 li Self guided vs group settings
 
         section
-            h3 For experienced teachers, what is your typical audience?
-            h3 Is that what you expect?
+            h3 For experienced teachers:
+            ul
+                li What is your typical audience?
+                li Is that what you expect?
 
         section
             section
@@ -329,13 +332,13 @@ html(class="no-js", ng-app="main")
                     li Consider offering an intermediate level for repeat students who don't quite have enough experience for the advanced class
         section
             h2 References
-            ul
-                li <sup>1</sup><a href="http://www.itworldcanada.com/article/it-hiring-slump-to-bring-about-skills-shortage-survey/88069">http://www.itworldcanada.com/article/it-hiring-slump-to-bring-about-skills-shortage-survey/88069</a>
-                li <sup>2</sup><a href="http://www.newyorker.com/science/maria-konnikova/moocs-failure-solutions">http://www.newyorker.com/science/maria-konnikova/moocs-failure-solutions</a>
-                li <sup>3</sup><a href="http://www.academicpartnerships.com/sites/default/files/MOOCs_Expectations_and_Reality.pdf">http://www.academicpartnerships.com/sites/default/files/MOOCs_Expectations_and_Reality.pdf</a>
-                li <sup>4</sup><a href="http://flatironschool.com/">http://flatironschool.com</a>
-                li <sup>5</sup><a href="http://www.hackerschool.com/faq">http://hackerschool.com/faq</a>
-                li <sup>6</sup><a href="http://www.railsbridge.org/">http://www.railsbridge.org</a>
+            ul.ul-no-style
+                li <small><sup>1</sup><a href="http://www.itworldcanada.com/article/it-hiring-slump-to-bring-about-skills-shortage-survey/88069">http://www.itworldcanada.com/article/it-hiring-slump-to-bring-about-skills-shortage-survey/88069</a></small>
+                li <small><sup>2</sup><a href="http://www.newyorker.com/science/maria-konnikova/moocs-failure-solutions">http://www.newyorker.com/science/maria-konnikova/moocs-failure-solutions</a></small>
+                li <small><sup>3</sup><a href="http://www.academicpartnerships.com/sites/default/files/MOOCs_Expectations_and_Reality.pdf">http://www.academicpartnerships.com/sites/default/files/MOOCs_Expectations_and_Reality.pdf</a></small>
+                li <small><sup>4</sup><a href="http://flatironschool.com/">http://flatironschool.com</a></small>
+                li <small><sup>5</sup><a href="http://www.hackerschool.com/faq">http://hackerschool.com/faq</a></small>
+                li <small><sup>6</sup><a href="http://www.railsbridge.org/">http://www.railsbridge.org</a></small>
 
 
     script(src="./assets/js/app.js")
@@ -356,3 +359,23 @@ html(class="no-js", ng-app="main")
         document.getElementsByTagName( 'head' )[0].appendChild( link );
       }
 
+      var count = 120;
+
+      function timer() {
+
+        count=count-1;
+        if (count < 0) {
+           document.getElementById("timer").setAttribute('style', 'color:red;font-weight:bold;');
+           return;
+        }
+
+        document.getElementById("timer").innerHTML=count + " secs";
+      }
+
+      // start timer on up arrow
+      document.addEventListener( 'keyup', function( event ) {
+        if( event.keyCode === 38 ) {
+            count=120;
+            var counter=setInterval(timer, 1000);
+        }
+      }, false );
